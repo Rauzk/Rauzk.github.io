@@ -1,0 +1,12 @@
+(() => {
+  const buttons = document.querySelectorAll('.filter');
+  const cards = document.querySelectorAll('.claim-card');
+  buttons.forEach(button => button.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    button.classList.add('active');
+    const filter = button.dataset.filter;
+    cards.forEach(card => {
+      card.hidden = filter !== 'all' && card.dataset.status !== filter;
+    });
+  }));
+})();

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rauzk.github.io/sitemap.xml
