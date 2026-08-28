@@ -557,6 +557,142 @@ a {
   font-size: 16px;
 }
 
+.entity-hero {
+  background: var(--red);
+}
+
+.answer-card {
+  display: grid;
+  grid-template-columns: 0.45fr 1.05fr 1fr;
+  gap: 4vw;
+  align-items: start;
+  padding: 90px 6vw;
+  border-bottom: 5px solid var(--black);
+  background: var(--yellow);
+}
+
+.answer-card small,
+.answer-status header p,
+.qa-section header p {
+  font: 800 10px monospace;
+  letter-spacing: 0.12em;
+}
+
+.answer-card h2,
+.answer-status header h2,
+.qa-section header h2 {
+  margin: 0;
+  font:
+    900 clamp(40px, 6vw, 82px) / 0.96 Georgia,
+    "Songti SC",
+    serif;
+  letter-spacing: -0.06em;
+}
+
+.answer-card p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.answer-status {
+  padding: 95px 6vw;
+  background: var(--black);
+  color: #fff;
+}
+
+.answer-status header,
+.qa-section header {
+  display: grid;
+  grid-template-columns: 0.45fr 1.55fr;
+  gap: 4vw;
+  margin-bottom: 55px;
+}
+
+.answer-status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 2px solid #586264;
+  border-left: 2px solid #586264;
+}
+
+.answer-status-grid a {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px;
+  border-right: 2px solid #586264;
+  border-bottom: 2px solid #586264;
+  text-decoration: none;
+}
+
+.answer-status-grid a:hover {
+  background: var(--red);
+  color: var(--black);
+}
+
+.answer-status-grid small {
+  color: var(--yellow);
+  font: 800 10px monospace;
+}
+
+.answer-status-grid strong {
+  font:
+    900 30px/1.05 Georgia,
+    "Songti SC",
+    serif;
+}
+
+.answer-status-grid span {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.qa-section {
+  padding: 95px 6vw;
+  background: var(--paper);
+}
+
+.qa-item {
+  display: grid;
+  grid-template-columns: 0.35fr 0.75fr 1.1fr;
+  gap: 4vw;
+  align-items: start;
+  padding: 34px 0;
+  border-top: 2px solid var(--black);
+}
+
+.qa-item:last-child {
+  border-bottom: 2px solid var(--black);
+}
+
+.qa-item small {
+  font: 800 10px monospace;
+  letter-spacing: 0.1em;
+}
+
+.qa-item h2 {
+  margin: 0;
+  font:
+    900 30px/1.05 Georgia,
+    "Songti SC",
+    serif;
+}
+
+.qa-item p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.qa-item a {
+  grid-column: 3;
+  width: fit-content;
+  font-size: 12px;
+  font-weight: 900;
+}
+
 .alias-table {
   border-top: 4px solid var(--black);
 }
@@ -692,6 +828,42 @@ a {
   .section-heading,
   .evidence-boundary {
     grid-template-columns: 1fr;
+  }
+
+  .answer-card,
+  .answer-status header,
+  .qa-section header,
+  .qa-item {
+    grid-template-columns: 1fr;
+  }
+
+  .answer-card,
+  .answer-status,
+  .qa-section {
+    padding: 65px 20px;
+  }
+
+  .answer-card h2,
+  .answer-status header h2,
+  .qa-section header h2 {
+    font-size: 43px;
+    line-height: 1;
+  }
+
+  .answer-status-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .answer-status-grid a {
+    min-height: 160px;
+  }
+
+  .qa-item {
+    gap: 18px;
+  }
+
+  .qa-item a {
+    grid-column: 1;
   }
 
   .query-block h2 {

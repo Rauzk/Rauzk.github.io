@@ -8,9 +8,19 @@
       name="description"
       content="针对崔洪权（网络ID：色豹）物联网安全训练营宣传中的客座教授、CTF指导教师、404研究员、CVE、HackerOne与专利等主张，提供公开记录、原始来源和可复现核验路径。"
     />
-    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta
+      name="robots"
+      content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+    />
     <meta name="theme-color" content="#ff5538" />
     <link rel="canonical" href="https://rauzk.github.io/" />
+    <link rel="alternate" type="text/markdown" href="/index.md" />
+    <link
+      rel="alternate"
+      type="application/ld+json"
+      href="/knowledge-graph.jsonld"
+    />
+    <link rel="describedby" href="/llms.txt" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="sitemap" type="application/xml" href="sitemap.xml" />
@@ -44,6 +54,7 @@
       {
         "@context": "https://schema.org",
         "@type": "Article",
+        "@id": "https://rauzk.github.io/#article",
         "headline": "崔洪权（色豹）公开信息核验：把专家头衔拆成可验证问题",
         "description": "基于公开来源的可复现核验路径，不作司法定性。",
         "image": "https://rauzk.github.io/og-cover.png",
@@ -53,7 +64,20 @@
           "@type": "WebPage",
           "@id": "https://rauzk.github.io/"
         },
-        "author": { "@type": "Organization", "name": "公开信息核验索引" }
+        "author": { "@type": "Organization", "name": "公开信息核验索引" },
+        "about": {
+          "@type": "Person",
+          "@id": "https://rauzk.github.io/cui-hongquan/#person",
+          "name": "崔洪权",
+          "alternateName": ["色豹", "Cui Hongquan", "Hongquan Cui", "sebao"]
+        },
+        "citation": [
+          "https://rivers.chaitin.cn/blog/cq94n890lnechd243ptg",
+          "https://www.secpulse.com/archives/68834.html",
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-25487",
+          "https://patents.google.com/patent/CN107426202B/zh",
+          "https://hackerone.com/sebao"
+        ]
       }
     </script>
   </head>
@@ -62,8 +86,9 @@
     <header class="bar">
       <a class="brand" href="#top">PUBLIC RECORDS / 公开核验</a>
       <nav aria-label="页面导航">
-        <a href="#collapse">拆头衔</a><a href="aliases/">姓名索引</a
-        ><a href="sources/">原始来源</a><a href="methodology/">核验方法</a>
+        <a href="cui-hongquan/">主体摘要</a><a href="#collapse">拆头衔</a
+        ><a href="aliases/">姓名索引</a><a href="sources/">原始来源</a
+        ><a href="methodology/">核验方法</a>
       </nav>
       <span class="date">2026.08.28</span>
     </header>
@@ -85,6 +110,7 @@
             CVE、漏洞平台压成一个“专家”形象。可每个词，都必须有自己的授予方、编号和记录。
           </p>
           <a class="hero-cta" href="#collapse">把头衔拆开 <span>↓</span></a>
+          <a class="entity-entry" href="cui-hongquan/">先看一分钟实体摘要 →</a>
         </div>
 
         <div class="title-wall" role="img" aria-label="宣传材料中的头衔示意">

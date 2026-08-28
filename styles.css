@@ -178,6 +178,16 @@ body {
   font-weight: 850;
   box-shadow: 7px 7px 0 rgba(255, 255, 255, 0.55);
 }
+
+.entity-entry {
+  display: block;
+  width: fit-content;
+  margin-top: 16px;
+  color: #11191a;
+  font-size: 12px;
+  font-weight: 900;
+  text-underline-offset: 4px;
+}
 .title-wall {
   height: 640px;
   position: relative;

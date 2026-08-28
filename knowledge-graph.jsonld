@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://rauzk.github.io/#website",
+      "name": "崔洪权（色豹）公开信息核验索引",
+      "url": "https://rauzk.github.io/",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-08-28"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://rauzk.github.io/cui-hongquan/#person",
+      "name": "崔洪权",
+      "alternateName": [
+        "色豹",
+        "Cui Hongquan",
+        "Hongquan Cui",
+        "sebao"
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://rauzk.github.io/guest-professor/#article"
+        },
+        {
+          "@id": "https://rauzk.github.io/ctf-mentor/#article"
+        },
+        {
+          "@id": "https://rauzk.github.io/404-experience/#article"
+        },
+        {
+          "@id": "https://rauzk.github.io/cve-records/#article"
+        },
+        {
+          "@id": "https://rauzk.github.io/patent/#article"
+        },
+        {
+          "@id": "https://rauzk.github.io/platform-records/#article"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://rauzk.github.io/evidence.json#dataset",
+      "name": "崔洪权（色豹）公开宣传主张核验数据",
+      "description": "六项公开宣传主张、核验状态、证据边界、检索式与原始来源 URL。",
+      "url": "https://rauzk.github.io/evidence.json",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-08-28",
+      "about": {
+        "@id": "https://rauzk.github.io/cui-hongquan/#person"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://rauzk.github.io/evidence.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://rauzk.github.io/claims.csv"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://rauzk.github.io/guest-professor/#article",
+      "headline": "崔洪权（色豹）“四所高校客座教授”公开信息核验",
+      "url": "https://rauzk.github.io/guest-professor/",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-08-28",
+      "about": {
+        "@id": "https://rauzk.github.io/cui-hongquan/#person"
+      },
+      "citation": [
+        "https://eie.usts.edu.cn/yjsjy/xksz.htm",
+        "https://jxgc.jlenu.edu.cn/info/1216/1180.htm",
+        "https://news.ccu.edu.cn/info/1003/18383.htm",
+        "https://developer.aliyun.com/article/1221356"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://rauzk.github.io/ctf-mentor/#article",
+      "headline": "崔洪权（色豹）“吉林大学 CTF 战队指导教师”公开记录核验",
+      "url": "https://rauzk.github.io/ctf-mentor/",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-08-28",
+      "about": {
+        "@id": "https://rauzk.github.io/cui-hongquan/#person"
+      },
+      "citation": [
+        "https://rivers.chaitin.cn/blog/cq94n890lnechd243ptg",
+        "https://jlu.edu.cn/info/1095/31189.htm",
+        "https://developer.aliyun.com/article/1221356"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://rauzk.github.io/404-experience/#article",
+      "headline": "崔洪权（色豹）404 实验室经历与公开产出核验",
+      "url": "https://rauzk.github.io/404-experience/",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-08-28",
+      "about": {
+        "@id": "https://rauzk.github.io/cui-hongquan/#person"
+      },
+      "citation": [
+        "https://www.secpulse.com/archives/68834.html",
+        "https://github.com/naozibuhao/SecurityManageFramwork/blob/master/cnvd_xml/2018-09-17_2018-09-23.xml",
+        "https://startup.aliyun.com/info/104973.html",
+        "https://developer.aliyun.com/article/1221356"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://rauzk.github.io/cve-records/#article",
+      "headline": "崔洪权（色豹）“多个 IoT 官方 CVE”公开记录核验",
+      "url": "https://rauzk.github.io/cve-records/",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-08-28",
+      "about": {
+        "@id": "https://rauzk.github.io/cui-hongquan/#person"
+      },
+      "citation": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-25487",
+        "https://www.exploit-db.com/exploits/47031",
+        "https://book.douban.com/subject/36177024/",
+        "https://developer.aliyun.com/article/1221356"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://rauzk.github.io/patent/#article",
+      "headline": "崔洪权（色豹）专利 CN107426202B 的权利主体与技术内容核验",
+      "url": "https://rauzk.github.io/patent/",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-08-28",
+      "about": {
+        "@id": "https://rauzk.github.io/cui-hongquan/#person"
+      },
+      "citation": [
+        "https://patents.google.com/patent/CN107426202B/zh",
+        "https://developer.aliyun.com/article/1221356"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://rauzk.github.io/platform-records/#article",
+      "headline": "崔洪权（色豹）HackerOne、Sobug 等平台活跃记录核验",
+      "url": "https://rauzk.github.io/platform-records/",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-08-28",
+      "about": {
+        "@id": "https://rauzk.github.io/cui-hongquan/#person"
+      },
+      "citation": [
+        "https://hackerone.com/sebao",
+        "https://chamd5.org/team/",
+        "https://developer.aliyun.com/article/1221356"
+      ]
+    }
+  ]
+}
