@@ -393,6 +393,13 @@ body {
   flex-wrap: wrap;
   gap: 8px 18px;
 }
+.professor-jump {
+  align-self: flex-start;
+  margin-top: 14px;
+  padding: 8px 11px;
+  border: 2px solid currentColor;
+  text-decoration: none;
+}
 .claim-verdict {
   display: grid;
   place-content: center;
@@ -424,6 +431,148 @@ body {
 }
 .claim[data-tone="black"] > div {
   border-color: #586466;
+}
+.professor-dorks {
+  padding: 110px 6vw;
+  background: var(--white);
+}
+.professor-dorks > header {
+  display: grid;
+  grid-template-columns: 0.55fr 1.8fr 1fr;
+  gap: 34px;
+  align-items: end;
+  margin-bottom: 70px;
+}
+.dork-number {
+  color: var(--red);
+  font:
+    900 clamp(150px, 17vw, 260px) / 0.72 Georgia,
+    serif;
+  letter-spacing: -0.09em;
+}
+.professor-dorks header p:first-child {
+  margin: 0 0 12px;
+  color: #8e3a2c;
+  font: 700 11px monospace;
+  letter-spacing: 0.14em;
+}
+.professor-dorks h2 {
+  margin: 0;
+  font:
+    900 clamp(46px, 5.4vw, 78px) / 0.95 Georgia,
+    "Songti SC",
+    serif;
+  letter-spacing: -0.065em;
+}
+.professor-dorks h2 strong {
+  color: var(--red);
+}
+.dork-summary {
+  margin: 0;
+  padding-top: 18px;
+  border-top: 4px solid var(--black);
+  font-size: 14px;
+  font-weight: 700;
+}
+.school-searches {
+  border-top: 4px solid var(--black);
+}
+.school-search {
+  min-height: 210px;
+  display: grid;
+  grid-template-columns: 70px 1.1fr 0.68fr 1.35fr;
+  align-items: stretch;
+  border-bottom: 3px solid var(--black);
+}
+.school-search > * {
+  padding: 25px 22px;
+  border-right: 2px solid var(--black);
+}
+.school-search > *:last-child {
+  border-right: 0;
+}
+.school-index {
+  font:
+    900 28px Georgia,
+    serif;
+}
+.school-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-name h3 {
+  margin: 0 0 14px;
+  font:
+    900 clamp(28px, 3vw, 44px) / 1.03 Georgia,
+    "Songti SC",
+    serif;
+  letter-spacing: -0.04em;
+}
+.school-name p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 750;
+}
+.school-state {
+  display: grid;
+  place-content: center;
+  background: var(--red);
+  text-align: center;
+}
+.school-state small {
+  margin-bottom: 10px;
+  font: 800 9px monospace;
+  letter-spacing: 0.08em;
+}
+.school-state strong {
+  font:
+    900 30px/1.05 Georgia,
+    "Songti SC",
+    serif;
+}
+.school-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.school-actions a {
+  color: inherit;
+  font-size: 12px;
+  font-weight: 850;
+  text-underline-offset: 4px;
+}
+.dork-link {
+  display: grid;
+  gap: 8px;
+  padding: 14px 16px;
+  border: 3px solid var(--black);
+  background: var(--yellow);
+  text-decoration: none;
+  box-shadow: 6px 6px 0 var(--black);
+}
+.dork-link:hover,
+.dork-link:focus-visible {
+  background: var(--red);
+  transform: translate(-2px, -2px);
+  outline: none;
+  box-shadow: 8px 8px 0 var(--black);
+}
+.dork-link code {
+  overflow-wrap: anywhere;
+  font: 750 12px monospace;
+}
+.dork-link span {
+  font-size: 13px;
+}
+.dork-boundary {
+  max-width: 920px;
+  margin: 36px 0 0 auto;
+  padding-left: 20px;
+  border-left: 5px solid var(--red);
+  color: #4f595a;
+  font-size: 13px;
 }
 .verify {
   background: var(--yellow);
@@ -844,6 +993,71 @@ footer a {
   }
   .claim[data-tone="black"] .claim-record {
     border-color: #586466;
+  }
+  .professor-jump {
+    font-size: 12px;
+  }
+  .professor-dorks {
+    padding: 64px 12px;
+  }
+  .professor-dorks > header {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin: 0 8px 42px;
+  }
+  .dork-number {
+    font-size: 128px;
+  }
+  .professor-dorks h2 {
+    font-size: 44px;
+  }
+  .dork-summary {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  .school-search {
+    min-height: 0;
+    grid-template-columns: 44px 1fr;
+  }
+  .school-search > * {
+    padding: 17px 13px;
+  }
+  .school-index {
+    font-size: 21px;
+  }
+  .school-name {
+    border-right: 0;
+  }
+  .school-name h3 {
+    margin-bottom: 9px;
+    font-size: 28px;
+  }
+  .school-state {
+    grid-column: 1/-1;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid var(--black);
+    border-right: 0;
+    text-align: left;
+  }
+  .school-state small {
+    margin: 0;
+  }
+  .school-state strong {
+    font-size: 25px;
+  }
+  .school-actions {
+    grid-column: 1/-1;
+    border-top: 2px solid var(--black);
+  }
+  .dork-link {
+    padding: 13px 14px;
+  }
+  .dork-boundary {
+    margin: 30px 8px 0;
+    font-size: 12px;
   }
   .verify {
     padding: 62px 20px;
