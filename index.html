@@ -42,6 +42,7 @@
     </div>
     <nav aria-label="主导航">
       <a href="#method">核验方法</a>
+      <a href="#check">核验台</a>
       <a href="#claims">主张对照</a>
       <a href="#timeline">时间线</a>
       <a href="#sources">原始链接</a>
@@ -87,6 +88,34 @@
       <div>
         <h2>阅读规则：证据先于结论</h2>
         <p>“未找到公开记录”不自动等于“事情不存在”。本页使用分级表述：<b>属实</b>、<b>属实但表述扩大</b>、<b>未找到公开实证</b>、<b>存疑待证</b>。每条都标注来源日期、来源类型与复核动作；当事人提供可验证反证后，应更新对应条目。</p>
+      </div>
+    </section>
+
+    <section class="verification-console" id="check" aria-labelledby="check-title">
+      <div class="console-heading">
+        <p class="eyebrow">THE VERIFICATION DESK</p>
+        <h2 id="check-title">不要“搜这个人”，要核对这一个头衔</h2>
+        <p>选择你看到的宣传词。核验台会把问题缩小到一个具体字段：谁授予、授予谁、什么时候、凭什么记录。查不到时只记录“未找到公开记录”，不把空白直接写成事实。</p>
+      </div>
+      <div class="console-grid">
+        <div class="claim-picker" role="listbox" aria-label="选择宣传主张">
+          <button class="claim-pick active" data-check="professor" role="option" aria-selected="true"><span>01</span> 客座教授</button>
+          <button class="claim-pick" data-check="ctf" role="option" aria-selected="false"><span>02</span> CTF 指导教师</button>
+          <button class="claim-pick" data-check="404" role="option" aria-selected="false"><span>03</span> 404 研究员</button>
+          <button class="claim-pick" data-check="cve" role="option" aria-selected="false"><span>04</span> 多个 CVE</button>
+          <button class="claim-pick" data-check="patent" role="option" aria-selected="false"><span>05</span> 国家发明专利</button>
+          <button class="claim-pick" data-check="hackerone" role="option" aria-selected="false"><span>06</span> HackerOne 活跃</button>
+        </div>
+        <article class="check-result" aria-live="polite">
+          <div class="result-top"><span class="result-index">CHECK 01</span><span class="result-status">存疑待证</span></div>
+          <h3 id="check-name">“国内多所高校客座教授”</h3>
+          <div class="check-steps">
+            <div><b>查什么</b><p id="check-what">校方聘任公告、新闻、公示；聘书上的学校、学院、公章、聘期。</p></div>
+            <div><b>看哪个字段</b><p id="check-field">聘任主体是否为学校，姓名、职务和日期是否对应。</p></div>
+            <div><b>什么才算证据</b><p id="check-proof">校方官网记录或学院直接确认；第三方转载只能证明有人这样转述。</p></div>
+          </div>
+          <a id="check-link" class="button primary result-link" href="https://news.ccu.edu.cn/info/1003/18383.htm" target="_blank" rel="noopener">打开对照来源 ↗</a>
+        </article>
       </div>
     </section>
 
