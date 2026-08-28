@@ -393,6 +393,24 @@ body {
   flex-wrap: wrap;
   gap: 8px 18px;
 }
+
+.detail-link {
+  display: block;
+  width: fit-content;
+  margin-top: 18px;
+  padding: 10px 14px;
+  border: 2px solid currentColor;
+  background: #fff9ed;
+  color: #11191a;
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.detail-link:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 4px 4px 0 #11191a;
+}
 .professor-jump {
   align-self: flex-start;
   margin-top: 14px;
