@@ -435,6 +435,7 @@ function head({
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
+  <meta name="author" content="公开信息核验索引">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
   <link rel="canonical" href="${canonical}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -457,13 +458,13 @@ function siteBar() {
   return `<header class="site-bar">
   <a class="site-brand" href="/">PUBLIC RECORDS / 公开核验</a>
   <nav class="site-nav" aria-label="站点导航">
-    <a href="/aliases/">姓名索引</a><a href="/sources/">来源总表</a><a href="/methodology/">核验方法</a><a href="/updates/">更新记录</a>
+    <a href="/cui-hongquan/">主体摘要</a><a href="/aliases/">姓名索引</a><a href="/sources/">来源总表</a><a href="/methodology/">核验方法</a><a href="/updates/">更新记录</a><a href="/about/">关于本站</a>
   </nav>
 </header>`;
 }
 
 function footer() {
-  return `<footer class="site-footer"><span>UPDATED ${updated}</span><span><a href="/methodology/">证据边界与更正机制</a> · <a href="/evidence.json">JSON</a> · <a href="/claims.csv">CSV</a></span></footer>`;
+  return `<footer class="site-footer"><span>UPDATED ${updated}</span><span><a href="/methodology/">证据边界与更正机制</a> · <a href="/about/">关于本站</a> · <a href="/evidence.json">JSON</a> · <a href="/claims.csv">CSV</a></span></footer>`;
 }
 
 function renderClaimMarkdown(claim) {
@@ -548,7 +549,7 @@ ${siteBar()}
   <section class="evidence-hero tone-${claim.tone}">
     <div class="page-number">${claim.number}</div>
     <div class="hero-main">
-      <p class="breadcrumb"><a href="/">首页</a> / 单项公开核验</p>
+      <p class="breadcrumb"><a href="/">首页</a> / <a href="/cui-hongquan/">崔洪权（色豹）主体摘要</a> / 单项公开核验</p>
       <p class="eyebrow">崔洪权 · 网络 ID：色豹 · PUBLIC RECORD CHECK</p>
       <h1>${claim.displayTitle ?? escapeHtml(claim.title)}</h1>
       <p class="hero-claim">${escapeHtml(claim.claim)}</p>

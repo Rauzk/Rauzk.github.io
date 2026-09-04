@@ -16,9 +16,9 @@
       try {
         await navigator.clipboard.writeText(button.dataset.query);
         label.textContent = "已复制";
-        setTimeout(() => (label.textContent = "复制"), 1400);
+        setTimeout(() => (label.textContent = "复制检索式"), 1400);
       } catch {
-        label.textContent = "请长按复制";
+        label.textContent = "请手动复制";
       }
     });
   });

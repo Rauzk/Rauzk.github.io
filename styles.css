@@ -730,15 +730,53 @@ body {
 .query-list {
   border-top: 3px solid #596466;
 }
-.copy-query {
-  width: 100%;
+.query-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: stretch;
+  border-bottom: 1px solid #596466;
+}
+.query-search {
   display: grid;
   grid-template-columns: 70px 1fr auto;
   gap: 20px;
   align-items: center;
+  min-width: 0;
   padding: 21px 0;
+  color: inherit;
+  text-decoration: none;
+}
+.query-search:hover,
+.query-search:focus-visible {
+  padding-left: 14px;
+  padding-right: 14px;
+  background: var(--red);
+  color: var(--black);
+  outline: none;
+}
+.query-search b {
+  font:
+    900 22px Georgia,
+    serif;
+}
+.query-search code {
+  overflow-wrap: anywhere;
+  font: 700 clamp(14px, 1.6vw, 20px) monospace;
+}
+.query-search span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-align: right;
+}
+.copy-query {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 112px;
+  padding: 0 16px;
   border: 0;
-  border-bottom: 1px solid #596466;
+  border-left: 1px solid #596466;
   background: transparent;
   color: inherit;
   text-align: left;
@@ -746,25 +784,14 @@ body {
 }
 .copy-query:hover,
 .copy-query:focus-visible {
-  padding-left: 14px;
-  padding-right: 14px;
   background: var(--red);
   color: var(--black);
   outline: none;
 }
-.copy-query b {
-  font:
-    900 22px Georgia,
-    serif;
-}
-.copy-query code {
-  overflow-wrap: anywhere;
-  font: 700 clamp(14px, 1.6vw, 20px) monospace;
-}
 .copy-query span {
   font-size: 11px;
   font-weight: 850;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
 }
 .query-note {
   max-width: 760px;
@@ -1176,11 +1203,23 @@ footer a {
     font-size: 42px;
   }
   .copy-query {
-    grid-template-columns: 34px 1fr auto;
+    min-height: 48px;
+    border-top: 1px solid #596466;
+    border-left: 0;
+  }
+  .query-item {
+    grid-template-columns: 1fr;
+  }
+  .query-search {
+    grid-template-columns: 34px 1fr;
     gap: 10px;
     padding: 17px 0;
   }
-  .copy-query code {
+  .query-search span {
+    grid-column: 2;
+    text-align: left;
+  }
+  .query-search code {
     font-size: 12px;
   }
   .before-pay {
