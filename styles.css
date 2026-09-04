@@ -467,6 +467,11 @@ body {
   text-decoration: none;
 }
 
+/* Keep the light detail button readable inside dark claim cards. */
+.claim-record a.detail-link {
+  color: #11191a;
+}
+
 .detail-link:hover {
   transform: translate(-3px, -3px);
   box-shadow: 4px 4px 0 #11191a;
