@@ -296,6 +296,56 @@ body {
   color: #fff;
   padding: 0 0.08em;
 }
+
+.search-entry {
+  display: grid;
+  grid-template-columns: 0.35fr 1.65fr;
+  gap: 5vw;
+  padding: 58px 6vw;
+  border-bottom: 5px solid var(--black);
+  background: var(--yellow);
+}
+
+.search-entry-kicker {
+  font: 900 12px monospace;
+  letter-spacing: 0.12em;
+}
+
+.search-entry h2 {
+  max-width: 900px;
+  margin: 0 0 16px;
+  font: 900 clamp(30px, 4vw, 58px) / 0.98 Georgia, "Songti SC", serif;
+  letter-spacing: -0.06em;
+}
+
+.search-entry p {
+  max-width: 800px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.search-entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.search-entry-links a {
+  display: inline-block;
+  padding: 10px 14px;
+  border: 2px solid var(--black);
+  background: var(--paper);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.search-entry-links a:hover,
+.search-entry-links a:focus-visible {
+  background: var(--black);
+  color: var(--yellow);
+}
 .thesis-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -966,6 +1016,11 @@ footer a {
   }
   .collapse {
     padding: 58px 12px;
+  }
+  .search-entry {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 48px 20px;
   }
   .section-intro {
     grid-template-columns: 1fr;
