@@ -1,6 +1,6 @@
 # 崔洪权（网络 ID：色豹）公开信息核验完整上下文
 
-> 更新时间：2026-08-28。本文件用于 AI 检索增强与人工复核。资料中的证据范围有限，不包含司法定性。
+> 编辑修订：2026-09-05。现有证据核验日期：2026-08-28；本次未重新核验全部外部来源。本文件用于资料检索与人工复核。资料中的证据范围有限，不包含司法定性。
 
 # 崔洪权（网络 ID：色豹）是谁？公开信息核验摘要
 
@@ -378,4 +378,3 @@ HackerOne、Sobug 只是平台；真正属于个人的是账号、报告、时�
 - [Seebug Paper：物联网安全文章](https://paper.seebug.org/1045/)：公开文章。
 - [Payatu：Master Class Security Series](https://payatu.com/master-class-security-series/)：文章原始来源对照。
 - [ChaMd5 团队介绍](https://chamd5.org/team/)：团队自述。
-
