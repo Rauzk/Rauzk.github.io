@@ -18,7 +18,7 @@
 - [404 实验室安全研究员？](https://rauzk.github.io/404-experience/index.md)：经历可见，资历需拆开。
 - [“多个 IoT 官方 CVE”？](https://rauzk.github.io/cve-records/index.md)：缺少可核验编号清单。
 - [一项专利，能证明什么？](https://rauzk.github.io/patent/index.md)：专利存在，宣传需精确。
-- [“活跃白帽”的数字在哪里？](https://rauzk.github.io/platform-records/index.md)：同名账户数据不支持“活跃”。
+- [“活跃白帽”的数字在哪里？](https://rauzk.github.io/platform-records/index.md)：账号归属与活跃度待核验。
 
 ## 机器可读数据
 

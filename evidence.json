@@ -1,7 +1,7 @@
 {
   "name": "崔洪权（网络 ID：色豹）公开信息核验索引",
   "url": "https://rauzk.github.io/",
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-09-05",
   "methodology": "https://rauzk.github.io/methodology/",
   "reportRepository": "https://gitee.com/fngoo/f-reveal",
   "evidenceBoundary": "未检索到公开记录不等于事实必然不存在；同名账户不自动证明身份归属；新反证应触发更新。",
@@ -95,8 +95,8 @@
       "markdownUrl": "https://rauzk.github.io/404-experience/index.md",
       "claim": "宣传材料使用“404 实验室安全研究员”经历，形成头部安全团队从业背书。",
       "status": "经历可见，资历需拆开",
-      "answer": "经历可见，资历需拆开。公开活动简介可见该称谓；同期岗位和产出不足以支持更高层级延伸。",
-      "recordSummary": "2018 年公开活动简介能够确认“404 实验室安全研究员”这一称谓曾被使用。可追溯时间线主要集中在 2017 年中至 2018 年底；同期招聘存档出现“404 实习安全研究员”岗位。现有公开记录没有说明个人职位层级，不能把品牌经历直接等同为资深资历。",
+      "answer": "经历可见，资历需拆开。公开活动简介使用过该称谓；个人职位级别尚缺直接记录，同期招聘不能证明其个人职位。",
+      "recordSummary": "2018 年公开活动简介能够确认“404 实验室安全研究员”这一称谓曾被使用。可追溯时间线主要集中在 2017 年中至 2018 年底；同期招聘存档出现“404 实习安全研究员”岗位，但这不是当事人个人任职记录。现有公开记录没有说明个人职位层级，不能把品牌经历直接等同为资深资历。",
       "verificationQueries": [
         {
           "label": "姓名与实验室",
@@ -201,8 +201,8 @@
       "url": "https://rauzk.github.io/platform-records/",
       "markdownUrl": "https://rauzk.github.io/platform-records/index.md",
       "claim": "团队介绍与人物宣传将其描述为活跃于 HackerOne、Sobug 等漏洞平台。",
-      "status": "同名账户数据不支持“活跃”",
-      "answer": "同名账户数据不支持“活跃”。HackerOne 同名账号 sebao 页面可见提交报告为 0；账号归属仍需本人确认。",
+      "status": "账号归属与活跃度待核验",
+      "answer": "账号归属与活跃度待核验。既有记录记载同名账号 sebao 的页面报告数为 0；账号归属未经确认，不能据此判断当事人是否活跃。",
       "recordSummary": "HackerOne 存在名为 sebao 的账户，页面显示未提交报告。该页面与宣传中的网络 ID 相同，可作为核对线索，但同名账户不能单独证明就是当事人。Sobug 已停止公开服务，历史活跃度需要其他可验证记录支持。",
       "verificationQueries": [
         {
@@ -229,5 +229,7 @@
         "https://developer.aliyun.com/article/1221356"
       ]
     }
-  ]
+  ],
+  "evidenceAsOf": "2026-08-28",
+  "revisionNote": "编辑修订：澄清证据边界，未重新核验全部外部来源。"
 }
