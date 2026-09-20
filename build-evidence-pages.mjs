@@ -443,6 +443,7 @@ function head({
   <link rel="alternate" type="text/markdown" href="${pathName}index.md">
   <link rel="alternate" type="application/ld+json" href="/knowledge-graph.jsonld">
   <link rel="describedby" href="/llms.txt">
+  <script async src="https://zz.bdstatic.com/linksubmit/push.js"></script>
   <link rel="alternate" type="application/rss+xml" title="公开信息核验索引更新" href="/feed.xml">
   <meta property="og:type" content="${type}">
   <meta property="og:url" content="${canonical}">
