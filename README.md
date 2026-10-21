@@ -14,7 +14,7 @@
 - [“多个 IoT 官方 CVE”公开记录核验](https://rauzk.github.io/cve-records/)
 - [专利 CN107426202B 权利主体与技术内容核验](https://rauzk.github.io/patent/)
 - [HackerOne、Sobug 等平台活跃记录核验](https://rauzk.github.io/platform-records/)
-- [IOTsec-Zone（iotsec、iotsec-zone）与崔洪权关系核验](https://rauzk.github.io/iotsec-zone/)
+- [信睿网络、IOTsec-Zone 与崔洪权宣传核验](https://rauzk.github.io/iotsec-zone/)
 
 ## 复核入口
 

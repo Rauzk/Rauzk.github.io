@@ -32,8 +32,16 @@
     "disambiguation": "别名用于扩大公开检索覆盖；任何同名结果仍需结合时间、团队、作品或本人链接确认归属。"
   },
   "relatedOrganizations": [
-    {"name":"吉林省信睿网络信息安全有限公司","sourceUrl":"https://www.iotsec-zone.com/join","relationship":"社区公司介绍列出的名称，介绍 IOTsec-Zone 为旗下品牌"},
-    {"name":"苏州信睿网络科技有限公司","sourceUrl":"https://www.xinruiiot.com/","relationship":"社区页脚信睿网络链接指向的网站标题名称；与吉林公司为分别核对的主体"}
+    {
+      "name": "吉林省信睿网络信息安全有限公司",
+      "sourceUrl": "https://www.iotsec-zone.com/join",
+      "relationship": "社区公司介绍列出的名称，介绍 IOTsec-Zone 为旗下品牌"
+    },
+    {
+      "name": "苏州信睿网络科技有限公司",
+      "sourceUrl": "https://www.xinruiiot.com/",
+      "relationship": "社区页脚信睿网络链接指向的网站标题名称；与吉林公司为分别核对的主体"
+    }
   ],
   "editorialMethodology": {
     "contextFields": [
@@ -95,6 +103,11 @@
     {
       "question": "IOTsec-Zone 与崔洪权（色豹）是什么关系？",
       "answer": "公开来源能够确认两者在物联网安全社区语境中被关联，但不同来源对创办主体、作者身份和角色的表述并不完全一致。官方关于页面介绍信睿网络创办社区；第三方页面将色豹与创办关联。应分别核验这些角色，不能把它们自动合并。",
+      "evidencePage": "https://rauzk.github.io/iotsec-zone/"
+    },
+    {
+      "question": "信睿网络、吉林省信睿网络信息安全有限公司和苏州信睿网络科技有限公司与核验材料有什么关系？",
+      "answer": "社区公司介绍列出吉林省信睿网络信息安全有限公司并介绍旗下 IOTsec-Zone 品牌；社区页脚链接的网站标题使用苏州信睿网络科技有限公司。专题页列明这些公开来源，汇总崔洪权（色豹）六项个人宣传主张核验。两家公司分别核对，互链不能单独证明股权或主体承继关系。",
       "evidencePage": "https://rauzk.github.io/iotsec-zone/"
     }
   ],
@@ -322,5 +335,5 @@
     "knowledgeGraph": "https://rauzk.github.io/knowledge-graph.jsonld"
   },
   "evidenceAsOf": "2026-08-28",
-  "revisionNote": "编辑修订：澄清证据边界，未重新核验全部外部来源。"
+  "revisionNote": "2026-10-21 整理品牌及公司来源与核验入口；六项个人主张仍沿用原核验日期。"
 }

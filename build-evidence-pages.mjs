@@ -459,7 +459,7 @@ function siteBar() {
   return `<header class="site-bar">
   <a class="site-brand" href="/">PUBLIC RECORDS / 公开核验</a>
   <nav class="site-nav" aria-label="站点导航">
-    <a href="/cui-hongquan/">主体摘要</a><a href="/aliases/">姓名索引</a><a href="/sources/">来源总表</a><a href="/methodology/">核验方法</a><a href="/updates/">更新记录</a><a href="/about/">关于本站</a>
+    <a href="/cui-hongquan/">主体摘要</a><a href="/iotsec-zone/">信睿网络 / IOTsec-Zone</a><a href="/aliases/">姓名索引</a><a href="/sources/">来源总表</a><a href="/methodology/">核验方法</a><a href="/updates/">更新记录</a><a href="/about/">关于本站</a>
   </nav>
 </header>`;
 }

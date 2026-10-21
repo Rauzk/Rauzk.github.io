@@ -17,7 +17,7 @@ IOTsec-Zone 的[官方公司介绍](https://www.iotsec-zone.com/join)列出吉�
 ## 可核对来源
 
 - [IOTsec-Zone 关于页面](https://www.iotsec-zone.com/about)：社区官方定位和创办主体表述。
-- [CTF导航 IOTsec-Zone 页面](https://www.ctfiot.com/sites/195.html)：第三方页面对“色豹”与社区关系的表述。
+- [CTF导航刊载的车联网赛题文章](https://www.ctfiot.com/36300.html)：第三方页面对“色豹”与社区关系的表述。
 - [社区官方公司介绍](https://www.iotsec-zone.com/join)：公司名称与社区品牌关系。
 
 ## 核验方法
