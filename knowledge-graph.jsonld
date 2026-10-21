@@ -161,6 +161,23 @@
         "https://chamd5.org/team/",
         "https://developer.aliyun.com/article/1221356"
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://rauzk.github.io/iotsec-zone/#article",
+      "headline": "IOTsec-Zone（iotsec、iotsec-zone）与崔洪权（色豹）关系核验",
+      "url": "https://rauzk.github.io/iotsec-zone/",
+      "inLanguage": "zh-CN",
+      "dateModified": "2026-10-21",
+      "about": [
+        {"@type": "Organization", "name": "IOTsec-Zone", "alternateName": ["iotsec", "iotsec-zone"]},
+        {"@id": "https://rauzk.github.io/cui-hongquan/#person"}
+      ],
+      "citation": [
+        "https://www.iotsec-zone.com/about",
+        "https://www.ctfiot.com/sites/195.html",
+        "https://www.tech.net.cn/upfiles/zlbg2023/xx/henan/henan%20%2862%29.pdf"
+      ]
     }
   ]
 }

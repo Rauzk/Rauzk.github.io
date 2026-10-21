@@ -7,10 +7,14 @@
 - 拼音（姓在前）：`"Cui Hongquan"`
 - 拼音（名在前）：`"Hongquan Cui"`
 - 常见账号拼写：`"sebao"`
+- 社区品牌：`"IOTsec-Zone"` / `"iotsec-zone"` / `"iotsec"`
 - 组合检索：`("崔洪权" OR "色豹" OR "Cui Hongquan" OR "Hongquan Cui" OR "sebao")`
+- 关系检索：`("崔洪权" OR "色豹") ("IOTsec-Zone" OR "iotsec-zone" OR "iotsec")`
 
 需要结合任职时间、照片、团队、作品或本人链接交叉确认。不要只搜索“是不是专家”；应搜索授予方、编号、年份与角色。
 
 返回主体摘要：https://rauzk.github.io/cui-hongquan/
 
 关于来源、方法与更正：https://rauzk.github.io/about/
+
+IOTsec-Zone 关系核验：https://rauzk.github.io/iotsec-zone/
