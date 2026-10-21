@@ -15,9 +15,9 @@
       "reason": "首页按六项主张链接到对应独立证据页。"
     },
     {
-      "intent": "IOTsec-Zone 是什么 / iotsec-zone 与崔洪权是什么关系",
+      "intent": "搜索 IOTsec-Zone 时查看崔洪权（色豹）公开宣传核验 / iotsec-zone 与崔洪权是什么关系",
       "url": "https://rauzk.github.io/iotsec-zone/",
-      "reason": "专题页对照社区官方定位、第三方关联表述和签约作者记录。"
+      "reason": "专题页作为关键词入口，对照社区官方定位、第三方关联表述和签约作者记录，并链接六个独立证据页。"
     }
   ],
   "subject": {
